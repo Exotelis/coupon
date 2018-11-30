@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_exoteliscoupon.php" source-language="en">
+    <body>
+      <trans-unit id="tl_exoteliscoupon.new.0">
+        <source>New coupon</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.new.1">
+        <source>Create a new coupon</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.show.0">
+        <source>Coupon details</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.show.1">
+        <source>Show the details of coupon ID %s</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.edit.0">
+        <source>Edit coupon</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.edit.1">
+        <source>Edit coupon ID %s</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.delete.0">
+        <source>Delete coupon</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.delete.1">
+        <source>Delete coupon ID %s</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.coupon_information">
+        <source>Coupon information</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.couponcode.0">
+        <source>Coupon code</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.couponcode.1">
+        <source>Please enter a coupon code.</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.recipient.0">
+        <source>Recipient</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.recipient.1">
+        <source>Please enter the name of the recipient.</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.value.0">
+        <source>Coupon value</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.value.1">
+        <source>Please enter the value of the coupon.</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.description.0">
+        <source>Coupon description</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.description.1">
+        <source>Please enter the coupon description.</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.start.0">
+        <source>Issuing date</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.start.1">
+        <source>Please enter the issuing date.</source>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.stop.0">
+        <source>Expiration date</source>
+        <target>Ablaufdatum</target>
+      </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.stop.1">
+        <source>Please enter the expiration date.</source>
+        <target>Bitte geben Sie das Ablaufdatum ein.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

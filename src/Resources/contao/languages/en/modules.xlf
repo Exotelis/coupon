@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/modules.php" source-language="en">
+    <body>
+      <trans-unit id="MOD.exotelis_coupon.0">
+        <source>Coupons</source>
+      </trans-unit>
+      <trans-unit id="MOD.exotelis_coupon.1">
+        <source>Manage Coupons</source>
+      </trans-unit>
+      <trans-unit id="FMD.exoteliscoupon.0">
+        <source>Coupons</source>
+      </trans-unit>
+      <trans-unit id="FMD.exoteliscoupon.1">
+        <source>Adds the coupon module to the page.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

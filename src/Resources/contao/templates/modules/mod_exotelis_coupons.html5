@@ -1,0 +1,31 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<form class="ui form<?php if($this->error) echo ' error'; ?><?php if($this->success) echo ' success'; ?>" <?php if ($this->action): ?>action="<?= $this->action ?>"<?php endif; ?> method="get">
+
+  <?php if($this->success): ?>
+  <div class="ui success message">
+    <div class="header"><?= $this->successTitle ?></div>
+    <p>
+      <?= $this->valid ?><br>
+      <?= $this->value ?> <?php if($this->description) echo '(' . $this->description . ')'; ?>
+    </p>
+  </div>
+  <?php endif; ?>
+
+  <?php if($this->error): ?>
+  <div class="ui error message">
+    <div class="header"><?= $this->errorTitle ?></div>
+    <p><?= $this->errorMessage ?></p>
+  </div>
+  <?php endif; ?>
+
+  <div class="field required">
+    <label><?= $this->couponLabel ?></label>
+    <input type="text" name="coupon" required placeholder="<?= $this->mask ?>"<?php if($this->couponCode) echo 'value="' . $this->couponCode . '"'; ?>>
+  </div>
+  <button class="ui button primary submit" type="submit"><?= $this->couponButton ?></button>
+</form>
+
+<?php $this->endblock(); ?>

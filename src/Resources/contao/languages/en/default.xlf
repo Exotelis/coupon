@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/default.php" source-language="en">
+    <body>
+      <trans-unit id="MSC.coupon_label">
+        <source>Coupon code</source>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_button">
+        <source>Check coupon</source>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_success.0">
+        <source>Couponcode found</source>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_valid">
+        <source>Your coupon with the code %s is valid until %s.</source>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_value">
+        <source>It has a value of %s€</source>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_empty.0">
+        <source>No coupon code entered</source>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_empty.1">
+        <source>Please insert a coupon code.</source>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_format.0">
+        <source>Invalid coupon format</source>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_format.1">
+        <source>The coupon format is invalid. It should look like: %s</source>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_notFound.0">
+        <source>Coupon code not found</source>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_notFound.1">
+        <source>The coupon code you entered does not exist.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

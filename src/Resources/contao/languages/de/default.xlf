@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/default.php" source-language="en">
+    <body>
+      <trans-unit id="MSC.coupon_label">
+        <source>Coupon code</source>
+        <target>Gutscheincode</target>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_button">
+        <source>Check coupon</source>
+        <target>Coupon prüfen</target>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_success.0">
+        <source>Couponcode found</source>
+        <target>Gutschein gefunden</target>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_valid">
+        <source>Your coupon with the code %s is valid until %s.</source>
+        <target>Dein Gutschein mit dem Gutscheincode %s ist bis zum %s gültig.</target>
+      </trans-unit>
+      <trans-unit id="MSC.coupon_value">
+        <source>It has a value of %s€</source>
+        <target>Er hat einen Wert von %s€</target>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_empty.0">
+        <source>No coupon code entered</source>
+        <target>Kein Gutscheincode eingegeben</target>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_empty.1">
+        <source>Please insert a coupon code.</source>
+        <target>Bitte gebe einen Gutscheincode ein.</target>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_format.0">
+        <source>Invalid coupon format</source>
+        <target>Ungültiges Format</target>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_format.1">
+        <source>The coupon format is invalid. It should look like: %s</source>
+        <target>Das Format des Gutscheins ist ungültig. Das Format sollte folgende Struktur haben: %s</target>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_notFound.0">
+        <source>Coupon code not found</source>
+        <target>Gutscheincode nicht gefunden</target>
+      </trans-unit>
+      <trans-unit id="ERR.coupon_notFound.1">
+        <source>The coupon code you entered does not exist.</source>
+        <target>Der von Dir eingegebene Gutscheincode konnte nicht gefunden werden.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

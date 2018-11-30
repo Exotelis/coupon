@@ -1,0 +1,41 @@
+{
+  "name": "exotelis/coupon",
+  "description": "Can verify a coupon code on the frontend and add coupons in the backend",
+  "type": "contao-bundle",
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Sebastian Krah",
+      "email": "exotelis@mailbox.org",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Exotelis/coupon/issues",
+    "source": "https://github.com/Exotelis/coupon"
+  },
+  "require": {
+    "php": "^7.0",
+    "contao/core-bundle": "^4.4"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exotelis\\CouponBundle\\": "src/"
+    },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
+  },
+  "extra": {
+    "contao-manager-plugin": "Exotelis\\CouponBundle\\ContaoManager\\Plugin"
+  }
+}

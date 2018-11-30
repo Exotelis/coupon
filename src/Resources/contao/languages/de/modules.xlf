@@ -1,0 +1,22 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/modules.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="MOD.exotelis_coupon.0">
+        <source>Coupons</source>
+        <target>Gutscheine</target>
+      </trans-unit>
+      <trans-unit id="MOD.exotelis_coupon.1">
+        <source>Manage Coupons</source>
+        <target>Gutscheine verwalten</target>
+      </trans-unit>
+      <trans-unit id="FMD.exoteliscoupon.0">
+        <source>Coupons</source>
+        <target>Gutscheine</target>
+      </trans-unit>
+      <trans-unit id="FMD.exoteliscoupon.1">
+        <source>Adds the coupon module to the page.</source>
+        <target>Fügt das Gutscheinmodul der Seite hinzu.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
