@@ -61,12 +61,13 @@
       </trans-unit>
       <trans-unit id="tl_exoteliscoupon.stop.0">
         <source>Expiration date</source>
-        <target>Ablaufdatum</target>
       </trans-unit>
       <trans-unit id="tl_exoteliscoupon.stop.1">
         <source>Please enter the expiration date.</source>
-        <target>Bitte geben Sie das Ablaufdatum ein.</target>
       </trans-unit>
+      <trans-unit id="tl_exoteliscoupon.ERR.wrongCouponFormat">
+         <source>The format of the field &quot;Coupon code&quot; is invalid, valid would be the format &quot;%s&quot;!</source>
+       </trans-unit>
     </body>
   </file>
 </xliff>

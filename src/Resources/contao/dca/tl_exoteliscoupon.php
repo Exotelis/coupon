@@ -105,12 +105,16 @@ $GLOBALS['TL_DCA']['tl_exoteliscoupon'] = array
             'sorting'               => false,
             'flag'                  => 1,
             'inputType'             => 'text',
-            'eval'                  => array('mandatory'=>true, 'unique'=>true, 'maxlength'=>23, 'tl_class'=>'w100'),
-            'sql'                   => "varchar(23) NOT NULL default ''",
+            'eval'                  => array('mandatory'=>true, 'unique'=>true, 'maxlength'=>50, 'tl_class'=>'w100'),
+            'sql'                   => "varchar(50) NOT NULL default ''",
             'load_callback'         => array
             (
                 array('tl_exoteliscoupon', 'generateCouponCode'),
-            )
+            ),
+            'save_callback'         => array
+            (
+                array('tl_exoteliscoupon', 'checkCouponFormat'),
+            ),
         ),
         'recipient' => array
         (
@@ -204,6 +208,28 @@ class tl_exoteliscoupon extends Contao\Backend
             }
         }
 
+        return $varValue;
+    }
+
+    /**
+     * Checks for the correct coupon format
+     *
+     * @param string $varValue      The value of the field
+     * @param DataContainer $dc     The DataContainer object
+     *
+     * @throws Exception
+     *
+     * @return string               The value of the field
+     */
+    public function checkCouponFormat($varValue, DataContainer $dc)
+    {
+        $coupon = \Exotelis\CouponLayout::getInstance();
+
+        // If the coupon code format is invalid
+        if(!preg_match($coupon->getPattern(), $varValue))
+        {
+            throw new \Exception(\sprintf($GLOBALS['TL_LANG']['tl_exoteliscoupon']['ERR']['wrongCouponFormat'], $coupon->getMask()));
+        }
         return $varValue;
     }
 }
