@@ -8,7 +8,7 @@
       </trans-unit>
       <trans-unit id="MSC.coupon_button">
         <source>Check coupon</source>
-        <target>Coupon prüfen</target>
+        <target>Gutscheincode prüfen</target>
       </trans-unit>
       <trans-unit id="MSC.coupon_success.0">
         <source>Couponcode found</source>
@@ -36,7 +36,7 @@
       </trans-unit>
       <trans-unit id="ERR.coupon_format.1">
         <source>The coupon format is invalid. It should look like: %s</source>
-        <target>Das Format des Gutscheins ist ungültig. Das Format sollte folgende Struktur haben: %s</target>
+        <target>Das Format des Gutscheincodes ist ungültig. Das Format sollte folgende Struktur haben: %s</target>
       </trans-unit>
       <trans-unit id="ERR.coupon_notFound.0">
         <source>Coupon code not found</source>
